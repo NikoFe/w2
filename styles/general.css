@@ -1,0 +1,20 @@
+.rows {
+  display: flex;
+}
+
+body {
+  background-color: gray;
+  margin: 0px;
+  padding: 0px;
+}
+
+h4 {
+  font-size: 11px;
+  font-weight: normal;
+}
+
+p,
+a,
+h4 {
+  font-family: Arial, Helvetica, sans-serif;
+}

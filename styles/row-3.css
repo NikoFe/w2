@@ -1,0 +1,77 @@
+#row-3 {
+  background-color: white;
+  justify-content: center;
+  margin: 12px auto;
+  width: 100%;
+  align-items: center;
+  padding: 10px 0px;
+}
+
+#row-3 div:not(.vertical-line) {
+  height: 100px;
+  background: yellow;
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#r3left {
+  display: flex;
+  flex-direction: column;
+  background-color: green;
+  gap: 10px;
+  align-items: center;
+  font-size: 13px;
+  line-height: 10px;
+  padding: 0px 45px;
+}
+
+#r3left p {
+  margin: 0px;
+}
+
+#sponsor-1,
+#sponsor-2 {
+  width: 180px;
+  height: fit-content;
+}
+
+#medias {
+  font-size: 25px;
+  gap: 10px;
+
+  padding-left: 10px;
+  padding-right: 25px;
+}
+
+.fa-linkedin-in {
+  color: darkblue;
+}
+
+.fa-square-facebook {
+  color: cadetblue;
+}
+
+.fa-instagram {
+  color: red;
+}
+
+.fa-youtube {
+  color: red;
+}
+
+.vertical-line {
+  height: 70px;
+  width: 2px;
+  background-color: gray;
+  margin: 0px;
+  display: inline;
+}
+#image-div-1 {
+  padding: 0px 10px;
+}
+
+#image-div-2 {
+  padding: 0px 130px;
+}

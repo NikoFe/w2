@@ -1,0 +1,80 @@
+#row-1 {
+  background-color: white;
+  padding: 0px 10%;
+  padding-bottom: 15px;
+  justify-content: space-between;
+}
+
+#r1left {
+  background-color: aquamarine;
+  display: flex;
+  gap: 50px;
+
+  align-items: center;
+}
+
+#r1right {
+  background-color: yellow;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#um-logo {
+  width: 110px;
+  height: fit-content;
+}
+
+#feri-logo {
+  width: 170px;
+  height: fit-content;
+}
+
+#ul-top {
+  list-style-type: none;
+  background-color: cadetblue;
+  height: fit-content;
+  padding: 8px 5px;
+  width: fit-content;
+  align-self: flex-end;
+  margin-top: 0px;
+}
+
+#ul-top li {
+  display: inline;
+  padding: 5px 6px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+
+  color: white;
+}
+
+#ul-bottom {
+  list-style-type: none;
+
+  height: fit-content;
+  padding: 5px 5px;
+  padding-right: 0px;
+
+  border-left: solid 0.5px orange;
+}
+
+#ul-bottom li {
+  display: inline;
+  padding: 10px 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  color: cadetblue;
+  border-right: solid 0.5px orange;
+  font-weight: 300px;
+
+  margin-right: 0px;
+  margin-left: 0px;
+}
+#ul-bottom li :hover {
+  background-color: brown;
+}
