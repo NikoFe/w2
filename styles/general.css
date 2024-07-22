@@ -3,9 +3,11 @@
 }
 
 body {
-  background-color: rgb(218, 218, 218);
+  /*background-color: rgb(218, 218, 218);*/
+  background-color: rgb(139, 189, 177);
   margin: 0px;
   padding: 0px;
+  zoom: 110%;
 }
 
 h4 {
@@ -35,4 +37,11 @@ h4 {
 
 #white2 {
   top: 703px;
+}
+.vertical-line {
+  height: 85px;
+  width: 1px;
+  background-color: rgb(185, 185, 185);
+  margin: 0px;
+  display: inline;
 }

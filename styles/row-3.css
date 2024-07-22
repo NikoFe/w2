@@ -70,13 +70,6 @@
   color: red;
 }
 
-.vertical-line {
-  height: 85px;
-  width: 1px;
-  background-color: rgb(185, 185, 185);
-  margin: 0px;
-  display: inline;
-}
 #image-div-1 {
   padding: 0px 10px;
 }

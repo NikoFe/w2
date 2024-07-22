@@ -1,15 +1,16 @@
 #row-1 {
   background-color: white;
-
+  background-color: pink;
   padding-bottom: 15px;
   justify-content: space-between;
   width: 100%;
   margin: auto;
+  height: 114px;
 }
 
 #r1left {
   display: flex;
-  gap: 50px;
+  gap: 30px;
 
   align-items: center;
 }
@@ -77,4 +78,8 @@
 }
 #ul-bottom li :hover {
   background-color: brown;
+}
+
+#row-1 .vertical-line {
+  height: 75p;
 }

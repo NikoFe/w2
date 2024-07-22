@@ -1,4 +1,106 @@
 @media screen and (max-width: 1440px) {
   .main-div {
+    width: 97%;
+    padding-left: 15px;
+    margin-left: 0px;
   }
+
+  .entries {
+    width: 98%;
+  }
+  #r1 {
+    width: 98.5%;
+  }
+
+  #r2left {
+    width: 35%;
+  }
+
+  #r2left ul {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  #r2left {
+    width: 36%;
+  }
+}
+
+@media screen and (max-width: 1350px) {
+  #r2left {
+    width: 37%;
+  }
+}
+
+@media screen and (max-width: 1325px) {
+  #r2left {
+    width: 39%;
+  }
+  .main-div {
+    width: 96.5%;
+  }
+}
+@media screen and (max-width: 1325px) {
+  #r2left {
+    width: 41%;
+  }
+}
+
+@media screen and (max-width: 1230px) {
+  .main-div {
+    width: 96%;
+  }
+}
+@media screen and (max-width: 1150px) {
+  #r2left {
+    width: 45%;
+  }
+}
+
+@media screen and (max-width: 1110px) {
+  #ul-top li {
+    padding: 8px 5px;
+  }
+  #ul-top {
+    padding: 10px 8px;
+  }
+
+  #row-1 {
+    padding-right: 100px;
+    width: 101%;
+  }
+
+  #ul-bottom {
+    padding: 5px 3px;
+  }
+  #ul-bottom li {
+    padding: 10px 1px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  #r2left {
+    width: 47%;
+  }
+}
+@media screen and (max-width: 1050px) {
+  #r2left {
+    width: 49%;
+  }
+}
+@media screen and (max-width: 1030px) {
+  #r2left {
+    width: 51%;
+  }
+}
+@media screen and (max-width: 1024px) {
+  #um-logo {
+    width: 90px;
+  }
+  #feri-logo {
+    width: 150px;
+  }
+}
+@media screen and (max-width: 970px) {
 }
