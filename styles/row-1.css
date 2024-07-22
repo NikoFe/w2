@@ -1,12 +1,13 @@
 #row-1 {
   background-color: white;
-  padding: 0px 10%;
+
   padding-bottom: 15px;
   justify-content: space-between;
+  width: 100%;
+  margin: auto;
 }
 
 #r1left {
-  background-color: aquamarine;
   display: flex;
   gap: 50px;
 
@@ -14,7 +15,6 @@
 }
 
 #r1right {
-  background-color: yellow;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -32,7 +32,7 @@
 
 #ul-top {
   list-style-type: none;
-  background-color: cadetblue;
+  background-color: rgb(50, 103, 124);
   height: fit-content;
   padding: 8px 5px;
   width: fit-content;

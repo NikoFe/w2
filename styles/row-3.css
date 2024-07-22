@@ -1,7 +1,11 @@
 #row-3 {
   background-color: white;
   justify-content: center;
-  margin: 12px auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 12px;
+  margin-bottom: 0px;
+
   width: 100%;
   align-items: center;
   padding: 10px 0px;
@@ -9,7 +13,7 @@
 
 #row-3 div:not(.vertical-line) {
   height: 100px;
-  background: yellow;
+
   margin: 0px;
   display: flex;
   justify-content: center;
@@ -19,26 +23,31 @@
 #r3left {
   display: flex;
   flex-direction: column;
-  background-color: green;
+
   gap: 10px;
   align-items: center;
-  font-size: 13px;
-  line-height: 10px;
-  padding: 0px 45px;
+  font-size: 12px;
+
+  padding: 0px 55px;
+  line-height: 7px;
 }
 
 #r3left p {
   margin: 0px;
 }
 
-#sponsor-1,
+#sponsor-1 {
+  width: 170px;
+  height: fit-content;
+}
+
 #sponsor-2 {
-  width: 180px;
+  width: 175px;
   height: fit-content;
 }
 
 #medias {
-  font-size: 25px;
+  font-size: 28px;
   gap: 10px;
 
   padding-left: 10px;
@@ -62,9 +71,9 @@
 }
 
 .vertical-line {
-  height: 70px;
-  width: 2px;
-  background-color: gray;
+  height: 85px;
+  width: 1px;
+  background-color: rgb(185, 185, 185);
   margin: 0px;
   display: inline;
 }
