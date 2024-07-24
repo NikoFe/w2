@@ -1,12 +1,12 @@
 #row-3 {
   background-color: white;
-  justify-content: center;
+  justify-content: start;
   margin-left: auto;
   margin-right: auto;
   margin-top: 12px;
   margin-bottom: 0px;
 
-  width: 100%;
+  width: 107%;
   align-items: center;
   padding: 10px 0px;
 }
@@ -26,9 +26,10 @@
 
   gap: 10px;
   align-items: center;
+  text-align: center;
   font-size: 12px;
-
-  padding: 0px 55px;
+  width: 300px;
+  padding: 0px 58px;
   line-height: 7px;
 }
 
@@ -49,9 +50,9 @@
 #medias {
   font-size: 28px;
   gap: 10px;
-
   padding-left: 10px;
-  padding-right: 25px;
+  padding-right: 23px;
+  overflow: hidden;
 }
 
 .fa-linkedin-in {
@@ -71,9 +72,9 @@
 }
 
 #image-div-1 {
-  padding: 0px 10px;
+  padding: 0px 15px;
 }
 
 #image-div-2 {
-  padding: 0px 130px;
+  padding: 0px 132px;
 }

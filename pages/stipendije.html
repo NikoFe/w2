@@ -4,12 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.1" />
     <title>Document</title>
-    <link rel="stylesheet" href="styles/row-1.css" />
-    <link rel="stylesheet" href="styles/row-2.css" />
-    <link rel="stylesheet" href="styles/row-3.css" />
-    <link rel="stylesheet" href="styles/row-4.css" />
-    <link rel="stylesheet" href="styles/general.css" />
-    <link rel="stylesheet" href="styles/media-querries.css" />
+    <link rel="stylesheet" href="../styles/row-1.css" />
+    <link rel="stylesheet" href="../styles/row-2.css" />
+    <link rel="stylesheet" href="../styles/row-3.css" />
+    <link rel="stylesheet" href="../styles/row-4.css" />
+    <link rel="stylesheet" href="../styles/general.css" />
+    <link rel="stylesheet" href="../styles/media-querries.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
@@ -22,47 +22,61 @@
     <div class="main-div" id="main-div">
       <header>
         <div id="row-1" class="rows">
+          <ul id="ul-top">
+            <i class="fa-solid fa-bars" id="fa-bars"></i>
+            <li>OBVESTILA</li>
+            <li>AIPS</li>
+            <li>EŠTUDIJ</li>
+            <li>URNIKI</li>
+            <li>IKT STORITVE</li>
+            <li>KNJIŽNICA</li>
+            <li>ENGLISH</li>
+            <img src="../images/logo-feri.svg" id="feri-logo-small" />
+          </ul>
+
+          <ul id="ul-bottom">
+            <li class="hoverable">O NAS</li>
+            <li class="hoverable">ŠTUDIJ</li>
+            <li class="hoverable">RAZISKOVANJE</li>
+            <li class="hoverable">AKADEMIJA FERI</li>
+            <li class="hoverable">KONTAKTI</li>
+          </ul>
+
           <div id="r1left">
-            <img src="images/logo-um.svg" id="um-logo" />
-            <img src="images/logo-feri.svg" id="feri-logo" />
-          </div>
-          <div id="r1right">
-            <ul id="ul-top">
-              <li>OBVESTILA</li>
-              <li>AIPS</li>
-              <li>EŠTUDIJ</li>
-              <li>URNIKI</li>
-              <li>IKT STORITVE</li>
-              <li>KNJIŽNICA</li>
-              <li>ENGLISH</li>
-            </ul>
-            <ul id="ul-bottom">
-              <li class="hoverable">O NAS</li>
-              <li class="hoverable">ŠTUDIJ</li>
-              <li class="hoverable">RAZISKOVANJE</li>
-              <li class="hoverable">AKADEMIJA FERI</li>
-              <li class="hoverable">KONTAKTI</li>
-            </ul>
+            <img src="../images/logo-um.svg" id="um-logo" />
+            <div class="vertical-line"></div>
+            <img src="../images/logo-feri.svg" id="feri-logo" />
           </div>
         </div>
       </header>
 
+      <div id="oglasna" class="rows"><p>Oglasna deska</p></div>
+
       <div id="row-2" class="rows">
         <div id="r2left">
           <ul>
-            <li selec>Oglasna deska</li>
-            <li>Novice</li>
-            <li>Obvestila za študente</li>
-            <li>Dogodki</li>
-            <li>Zaposlitve</li>
-            <li>Praktično usposabljanje</li>
-            <li>Kadrovske štipendije</li>
+            <li>
+              <a href="../index.html">Oglasna deska</a>
+            </li>
+            <li><a href="novice.html">Novice</a></li>
+            <li><a href="obvestila.html">Obvestila za študente</a></li>
+            <li>
+              <a href="dogodki.html">Dogodki</a>
+            </li>
+            <li><a href="zaposlitve.html">Zaposlitve</a></li>
+            <li>
+              <a href="usposabljanje.html">Praktično usposabljanje</a>
+            </li>
+            <li style="background-color: rgb(255, 192, 77); padding-left: 0px">
+              <i class="fa-solid fa-caret-right" style="color: white"></i>
+              <a href="stipendije.html">Kadrovske štipendije</a>
+            </li>
           </ul>
         </div>
         <div id="r2right">
           <div id="r1" class="entries">
             <p>Obvestila 1 od 3 od 3</p>
-            <img src="images/wifi.png" id="wifi-image" />
+            <img src="../images/wifi.png" id="wifi-image" />
           </div>
           <div class="entries">
             <a href="">GOVORILNE URE PRI ASIST. DR. D. NOVAKU</a>
@@ -121,18 +135,18 @@
         </div>
         <div class="vertical-line"></div>
         <div id="image-div-1">
-          <img src="images/sponsor-1.png" alt="" id="sponsor-1" />
+          <img src="../images/sponsor-1.png" alt="" id="sponsor-1" />
         </div>
         <div class="vertical-line"></div>
         <div id="medias">
           <i class="fa-brands fa-square-facebook"></i>
           <i class="fa-brands fa-linkedin-in"></i>
           <i class="fa-brands fa-instagram"></i>
-          <i class="fa-brands fa-youtube"></i>
+          <i class="fa-brands fa-youtube" id="youtube"></i>
         </div>
         <div class="vertical-line"></div>
         <div id="image-div-2">
-          <img src="images/sponsor-2.png" alt="" id="sponsor-2" />
+          <img src="../images/sponsor-2.png" alt="" id="sponsor-2" />
         </div>
         <div class="vertical-line"></div>
       </div>

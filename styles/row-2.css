@@ -43,13 +43,24 @@
   border: solid 0.5px rgb(200, 200, 200);
 }
 
+#r2left li:hover {
+  background-color: rgb(247, 181, 59);
+}
+#r2left li:hover a {
+  color: white;
+}
+
+#r2left li::selection {
+  background-color: rgb(247, 181, 59);
+}
+
 .entries {
   background-color: white;
   padding: 12px;
 
   padding-bottom: 3px;
   padding-top: 14px;
-  width: 820px;
+  width: 97%;
   align-items: center;
   font-size: 14px;
 }
@@ -70,7 +81,7 @@
   justify-content: space-between;
   display: flex;
   padding: 4px 10px;
-  width: 824px;
+  width: 97.5%;
 }
 
 #r1 p {
@@ -82,4 +93,20 @@
 #wifi-image {
   width: 35px;
   height: fit-content;
+}
+
+.files {
+  display: flex;
+  justify-content: start;
+}
+
+.fa-file-pdf {
+  color: red;
+}
+
+.entries_images {
+  height: 106px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
 }

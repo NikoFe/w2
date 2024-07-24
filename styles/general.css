@@ -8,6 +8,7 @@ body {
   margin: 0px;
   padding: 0px;
   zoom: 110%;
+  width: 100%;
 }
 
 h4 {
@@ -22,7 +23,7 @@ h4 {
 }
 
 .main-div {
-  width: 1215px;
+  width: 1230px;
   margin: auto;
 }
 
@@ -36,7 +37,7 @@ h4 {
 }
 
 #white2 {
-  top: 703px;
+  bottom: 0px;
 }
 .vertical-line {
   height: 85px;
@@ -44,4 +45,17 @@ h4 {
   background-color: rgb(185, 185, 185);
   margin: 0px;
   display: inline;
+}
+
+#oglasna {
+  font-size: 20px;
+  margin-bottom: 0px;
+  color: gray;
+  height: 40px;
+  display: none;
+}
+#oglasna p {
+  display: inline;
+  margin: 0px;
+  padding: 15px 0px;
 }

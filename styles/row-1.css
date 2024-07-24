@@ -1,18 +1,26 @@
 #row-1 {
   background-color: white;
-  background-color: pink;
-  padding-bottom: 15px;
-  justify-content: space-between;
+  padding-bottom: 0px;
+  padding-top: 0px;
+
   width: 100%;
   margin: auto;
-  height: 114px;
+
+  height: 128px;
+
+  flex-direction: column;
+  justify-content: start;
+  gap: 20px;
+  position: relative;
 }
 
 #r1left {
   display: flex;
-  gap: 30px;
+  gap: 26px;
 
   align-items: center;
+  position: absolute;
+  top: 28px;
 }
 
 #r1right {
@@ -27,7 +35,7 @@
 }
 
 #feri-logo {
-  width: 170px;
+  width: 180px;
   height: fit-content;
 }
 
@@ -37,19 +45,21 @@
   height: fit-content;
   padding: 8px 5px;
   width: fit-content;
+
+  margin: 0;
   align-self: flex-end;
-  margin-top: 0px;
 }
 
 #ul-top li {
   display: inline;
-  padding: 5px 6px;
-  margin-top: 10px;
+  padding: 5px 7px;
+  margin-top: 0px;
   margin-bottom: 10px;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 12px;
 
   color: white;
+  width: fit-content;
 }
 
 #ul-bottom {
@@ -60,6 +70,9 @@
   padding-right: 0px;
 
   border-left: solid 0.5px orange;
+  display: block;
+  align-self: flex-end;
+  width: fit-content;
 }
 
 #ul-bottom li {
@@ -81,5 +94,17 @@
 }
 
 #row-1 .vertical-line {
-  height: 75p;
+  height: 75px;
+}
+#fa-bars {
+  color: white;
+  font-size: 28px;
+  display: none;
+}
+
+#feri-logo-small {
+  width: 73px;
+  height: auto;
+  border: solid 1px white;
+  display: none;
 }
